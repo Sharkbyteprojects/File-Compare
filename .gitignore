@@ -12,4 +12,5 @@ _deps
 CMakeUserPresets.json
 .vs
 test.txt
-/out/Ubuntu/build/linux-debug
+out
+CMakePresets.json
