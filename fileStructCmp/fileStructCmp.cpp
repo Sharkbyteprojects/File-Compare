@@ -128,20 +128,8 @@ void compare(baseData* dc, const std::filesystem::path& p, const std::filesystem
 		}
 	}
 }
-struct baseDa2ta {
-	size_t scannedDirs;
-	size_t typeDifferences;
-	size_t differences;
 
-	size_t additionalFilesOnA;
-	size_t lessFilesOnA;
 
-	size_t fileInternDifferences;
-	size_t wrongBytes;
-	size_t readWrite_Errors;
-
-	size_t sameFiles;
-};
 int main(int argc, char* argv[])
 {
 	if (argc < 3) {
